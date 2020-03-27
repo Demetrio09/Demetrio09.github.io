@@ -1,0 +1,18 @@
+body {
+    padding: 0px 10px;
+}
+
+.jumbotron {
+    color: white;
+    background-size: cover;
+    background-image: url(images/Start.jpg);
+}
+
+.display-4 {
+    
+    
+}
+
+.lead {
+    width: 35%;
+}
