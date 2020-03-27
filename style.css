@@ -1,6 +1,6 @@
 body {
     /*Box-model  */
-    padding: 0px 30px 1000px 30px;
+    padding: 0px 10px 1000px;
     /* Visual */
     background-color: #fff;
 }
@@ -10,7 +10,7 @@ header {
 }
 
 /* Background Picture */
-.background_pic {
+.jumbotron {
     /* Box-model */
     width: 100%;
     height: 200px;
@@ -37,20 +37,25 @@ header {
 }
 
 /* My Name */
-.name {
-    /* Typography */
-    color: black;
-    font-family: serif;
-    font-size: 40px;
-    font-weight: lighter;
-
-    /* Box-model */
-    width: 450px;
-
-    /* Positioning */
+.display-4 {
+    color: white;
     position: relative;
-    left: 210px;
-    top: 200px;
+    left: 165px;
+}
+
+.lead {
+    /* font-size: 15px; */
+    color: white;
+    line-height: 20px;
+    position: relative;
+    top: -10px;
+    left: 170px;
+    width: 40%;
+}
+
+.btn {
+    position: relative;
+    left: 170px;
 }
 
 /* General Bio */

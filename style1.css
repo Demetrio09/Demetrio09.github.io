@@ -8,8 +8,9 @@ body {
     background-image: url(images/Start.jpg);
 }
 
-.display-4 {
-    
+.display-4, .lead {
+    position: relative;
+    top: -50px;
     
 }
 
