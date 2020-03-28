@@ -86,6 +86,7 @@ header {
     width: 82px;
     position: relative;
     top: 320px;
+    left: 20px;
 }
 
 /* About-me */
@@ -104,7 +105,6 @@ header {
 /* Main-bio */
 .main-bio {
     /* Box-model */
-    top: 335px;
     width: 75%;
 
     /* Typography */
@@ -114,6 +114,9 @@ header {
 
     /* Positioning */
     position: relative;
+    top: 335px;
+    left: 20px;
+
        
 }
 
@@ -131,6 +134,7 @@ header {
     /* Positioning */
     position: relative;
     top: 360px;
+    left: 20px;
 }
 
 /* My HightLight-List */
@@ -143,6 +147,7 @@ header {
     position: relative;
     left: 5px;
     top: 380px;
+    left: 20px;
 }
 
 /* My Academic Background */
@@ -159,6 +164,7 @@ header {
     /* Positioning */
     position: relative;
     top: 400px;
+    left: 20px;
 }
 
 /* Main Academic Background Info */
@@ -171,6 +177,7 @@ header {
     position: relative;
     left: 5px;
     top: 420px;
+    left: 20px;
 }
 
 /* My Contact Info */
