@@ -22,7 +22,7 @@ module.exports = function(app) {
         res.render('about',
             {
                 title: '| About',
-                style: '',
+                style: 'footer.css',
                 navTheme: 'bg-dark',
                 navLinkOne: '/',
                 navBtOne: 'Home',
@@ -30,7 +30,7 @@ module.exports = function(app) {
                 navBtTwo: 'Portfolio',
                 navLinkThree: 'contact',
                 navBtThree: 'Contact',
-                footerClass: 'class="bottom bg-dark"'
+                footerClass: 'class="bottom bg-dark footer"'
             });
     });
 
@@ -38,7 +38,7 @@ module.exports = function(app) {
         res.render('portfolio',
             {
                 title: '| Portfolio',
-                style: '',
+                style: 'footer.css',
                 navTheme: 'bg-dark',
                 navLinkOne: '/',
                 navBtOne: 'Home',
@@ -46,7 +46,7 @@ module.exports = function(app) {
                 navBtTwo: 'About',
                 navLinkThree: 'contact',
                 navBtThree: 'Contact',
-                footerClass: 'class="bottom bg-dark"'
+                footerClass: 'class="bottom bg-dark footer"'
             });
 
     });
@@ -55,7 +55,7 @@ module.exports = function(app) {
         res.render('contact',
             {
                 title: '| About',
-                style: '',
+                style: 'footer.css',
                 navTheme: 'bg-dark',
                 navLinkOne: '/',
                 navBtOne: 'Home',
@@ -63,7 +63,7 @@ module.exports = function(app) {
                 navBtTwo: 'Portfolio',
                 navLinkThree: 'about',
                 navBtThree: 'About',
-                footerClass: 'class="bottom bg-dark"'
+                footerClass: 'class="bg-dark footer"'
             });
     });
 };
