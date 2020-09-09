@@ -1,4 +1,4 @@
-# Homework 02 / CSS and Bootstrap: Responsive Portfolio
+# CSS and Bootstrap: Responsive Portfolio
 
 Responsive design web application with the following files:
 
