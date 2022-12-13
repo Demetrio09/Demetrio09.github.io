@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Demetrio09/Demetrio09.github.io#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^5.1.0",
     "npm": "^6.14.6",
     "path": "^0.12.7"
